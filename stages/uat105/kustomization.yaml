@@ -13,3 +13,6 @@ patches:
     - op: replace
       path: /spec/ports/0/nodePort
       value: 30111
+images:
+- name: docker.artifacts.rbi.tech/nginx/nginx
+  newTag: 1.25.4
