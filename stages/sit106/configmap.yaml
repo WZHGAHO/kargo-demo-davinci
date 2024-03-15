@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kargo-demo-content
+data:
+  index.html: |-
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>sit106</title>
+    </head>
+    <body>
+
+    <h1>sit106</h1>
+
+    </body>
+    </html>
