@@ -8,8 +8,8 @@ resources:
 patches:
 - target:
     kind: Service
-    name: kargo-demo
+    name: kargo-demo-davinci
   patch: |-
     - op: replace
       path: /spec/ports/0/nodePort
-      value: 40004
+      value: 30109

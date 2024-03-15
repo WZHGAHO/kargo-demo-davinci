@@ -12,7 +12,7 @@ patches:
       value: 30105
   target:
     kind: Service
-    name: kargo-demo
+    name: kargo-demo-davinci
 images:
 - name: docker.artifacts.rbi.tech/nginx/nginx
   newTag: 1.25.4
