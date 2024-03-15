@@ -8,8 +8,11 @@ resources:
 patches:
 - target:
     kind: Service
-    name: kargo-demo
+    name: kargo-demo-davinci
   patch: |-
     - op: replace
       path: /spec/ports/0/nodePort
       value: 30106
+images:
+- name: docker.artifacts.rbi.tech/nginx/nginx
+  newTag: 1.25.4
